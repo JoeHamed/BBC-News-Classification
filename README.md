@@ -68,7 +68,7 @@ Loss and Accuracy: The model is trained using sparse_categorical_crossentropy lo
 - The model is evaluated on the test data, and predictions are made for unseen data.
 
 ## Usage
-# 1. Prepare the Data
+### 1. Prepare the Data
 Make sure you have the BBC News dataset in CSV format. The dataset should have two columns:
 - The first column is the label (category of the news).
 - The second column contains the text of the article.
@@ -78,3 +78,25 @@ business,"The stock market is doing great today..."
 entertainment,"The latest movie release has grossed millions..."
 ...
 ```
+### 2. Run the Script
+Run the following command to train the model:
+```bash
+python main.py
+```
+### 3. Check the Results
+Once the model has trained, it will:
+- Plot graphs for training and validation accuracy/loss.
+- Save the vocabulary and learned word embeddings into `metadata.tsv` and `weights.tsv`
+
+## Visualizations
+The training process includes visualizations of:
+- **Accuracy**: How the model's accuracy improves over epochs.
+- **Loss**: How the model's loss decreases over time.
+These graphs are displayed using `matplotlib` for easy tracking of the model’s performance.
+
+## Model Files
+After training, the following files will be saved:
+- `metadata.tsv`: Vocabulary used by the model.
+- `weights.tsv`: The learned word embeddings.
+These files can be used for further analysis or to inspect the trained model's performance.
+
