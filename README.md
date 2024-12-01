@@ -93,9 +93,12 @@ The training process includes visualizations of:
 - **Accuracy**: How the model's accuracy improves over epochs.
 - **Loss**: How the model's loss decreases over time.
 These graphs are displayed using `matplotlib` for easy tracking of the model’s performance.
+
 ![image](https://github.com/user-attachments/assets/bbdb7005-2f9b-410b-985c-7a9b43470354)
 
+
 ![image](https://github.com/user-attachments/assets/e873bb3b-03e3-49fc-900c-e1cb8e055874)
+
 
 ## Visualizing Word Embeddings
 - After training the model, the word embeddings are saved to vecs.tsv (embedding vectors) and meta.tsv (words). These files can be used for visualizing the word vectors in 2D using tools like t-SNE or TensorBoard.
