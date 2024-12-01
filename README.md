@@ -66,3 +66,15 @@ Loss and Accuracy: The model is trained using sparse_categorical_crossentropy lo
 
 ### 4. Evaluation and Predictions
 - The model is evaluated on the test data, and predictions are made for unseen data.
+
+## Usage
+# 1. Prepare the Data
+Make sure you have the BBC News dataset in CSV format. The dataset should have two columns:
+- The first column is the label (category of the news).
+- The second column contains the text of the article.
+```csv
+category,text
+business,"The stock market is doing great today..."
+entertainment,"The latest movie release has grossed millions..."
+...
+```
