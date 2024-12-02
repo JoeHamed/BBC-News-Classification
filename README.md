@@ -1,6 +1,6 @@
 # BBC News Text Classification
 
-This project  demonstrates a text classification pipeline using the BBC News dataset. The goal is to classify news articles into five categories based on their content. The code uses TensorFlow and Keras to train a machine learning model that processes text data and makes predictions.
+This project demonstrates a text classification pipeline using the BBC News dataset. The goal is to classify news articles into five categories based on their content. The code uses TensorFlow and Keras to train a machine learning model that processes text data and makes predictions.
 
 ---
 
